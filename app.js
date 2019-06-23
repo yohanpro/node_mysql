@@ -6,6 +6,7 @@ const connection = mysql.createConnection({
     database: 'join_us',
     password: 'root'
 });
+
 connection.connect();
 
 const q = 'SELECT * from users';
